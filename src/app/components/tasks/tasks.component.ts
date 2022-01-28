@@ -28,8 +28,15 @@ export class TasksComponent implements OnInit {
 
   toggleReminder(task:Task){
     task.reminder = !task.reminder
-    console.log(task.reminder)
+    //console.log(task.reminder)
     this.taskService.updateTaskReminder(task).subscribe()
+  }
+
+  addTask(task:Task){
+    //console.log(task)
+    this.taskService.addTask(task).subscribe((task)=>{
+    this.tasks.push(task)
+    })
   }
 
 }

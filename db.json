@@ -23,6 +23,12 @@
       "text": "Realizar el proyecto final",
       "day": "Marzo a las 09:00",
       "reminder": true
+    },
+    {
+      "text": "Salir a correr",
+      "day": "Enero 29 a las 17:00",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
